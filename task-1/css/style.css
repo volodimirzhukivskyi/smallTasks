@@ -1,0 +1,91 @@
+.flag-container {
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+}
+
+.flag_uk {
+    background: yellow;
+}
+
+.flag_uk--top {
+    height: 100px;
+    background: blue;
+}
+
+.flag_jp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.flag_jp--circle {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+}
+
+.flag_isl {
+    background: blue;
+    position: relative;
+}
+
+.flag_isl-block {
+    position: absolute;
+
+    background: red;
+}
+
+.flag_isl--row {
+    padding: 14px 0;
+    border: 5px solid white;
+    right: 0;
+    border-left: none;
+    border-right: none;
+    bottom: 85px;
+    left: 0;
+}
+
+.flag_isl--top {
+    padding: 0 14px;
+    border: 5px solid white;
+    left: 75px;
+    bottom: 119px;
+    z-index: 0;
+    border-bottom: none;
+    border-top: none;
+    top: 0;
+
+}
+
+.flag_isl--bottom {
+    padding: 0 14px;
+    border: 5px solid white;
+    left: 75px;
+    top: 111px;
+    z-index: 0;
+    border-bottom: none;
+    border-top: none;
+    bottom: 0;
+
+}
+.flag-tch{
+    position: relative;
+    background: red;
+    border: 1px solid black
+}
+.flag-tch--top {
+    height: 100px;
+    background: white;
+}
+
+.flag-tch--left {position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-left: 115px solid blue;
+    border-bottom: 100px solid transparent;
+}
+
