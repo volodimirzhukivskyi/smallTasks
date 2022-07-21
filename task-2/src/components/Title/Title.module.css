@@ -1,0 +1,48 @@
+.h1 {
+    font-size: 60px;
+    line-height: 65px;
+    color: var(--blue);
+    margin: 0;
+    font-family: 'Orelega One',serif;
+
+}
+
+.h2 {
+    font-size: 48px;
+    color: var(--blue);
+    margin: 0;
+    padding:50px 150px 20px ;
+    font-family: 'Orelega One',serif;
+
+}
+
+.h3 {
+    padding:20px 0 70px 0;
+    margin: 0;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.22em;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #7D7D7D;
+    font-family: 'Lato',serif;
+}
+@media(max-width: 1440px){
+    .h2 {
+        padding:50px 50px 20px ;
+    }
+}
+@media(max-width: 768px){
+    .h1,.h2{
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .h2{
+        padding:20px 0 ;
+    }
+    .h3{
+        font-size: 18px;
+        line-height: 29px;
+        padding: 20px 0 20px 0;
+    }
+}

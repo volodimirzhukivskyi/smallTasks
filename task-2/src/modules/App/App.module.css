@@ -1,0 +1,25 @@
+.content {
+    display: grid;
+    justify-content: center;
+    grid-template-columns:repeat(4, 20%);
+    grid-template-rows:repeat(3, 1fr);
+    gap: 20px;
+    padding-top: 40px;
+}
+@media (max-width: 900px) {
+    .content {
+        grid-template-columns:repeat(2, 40%);
+        gap: 20px;
+    }
+}
+@media (max-width: 500px) {
+    .content {
+        width: 40%;
+        grid-template-columns:1fr;
+        gap: 20px;
+    }
+}
+.wrapperButton{
+    text-align: center;
+    padding: 20px 0;
+}
